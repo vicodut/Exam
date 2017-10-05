@@ -7,11 +7,15 @@
 public abstract class Vehicule {
     private String modele;
     private int annee;
-    private int prix;
+    private double prix;
     private String imat;
     private char noPermis;
+    private boolean loue;
 
-    public Vehicule(String modele, int annee, int prix, String imat, char noPermis) {
+    public Vehicule() {
+    }
+
+    public Vehicule(String modele, int annee, double prix, String imat, char noPermis) {
         this.modele = modele;
         this.annee = annee;
         this.prix = prix;

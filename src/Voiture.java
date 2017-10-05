@@ -7,6 +7,9 @@
 public class Voiture extends Vehicule {
     private boolean autoRadio;
 
+    public Voiture() {
+    }
+
     public Voiture(String modele, int annee, int prix, String imat, char noPermis, boolean autoRadio) {
         super(modele, annee, prix, imat, noPermis);
         this.autoRadio = autoRadio;
