@@ -5,7 +5,7 @@
  * Description :
  */
 public class Camion extends Vehicule {
-    private int volume;
+    protected int volume;
 
     public Camion() {
     }
