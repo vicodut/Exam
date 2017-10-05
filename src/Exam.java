@@ -12,18 +12,21 @@ public class Exam {
             20,
             35);
 
-    Voiture voiture = new Voiture("C1",
+        Voiture voiture = new Voiture("C1",
             2000,
             20000,
             "AAA-BBB-222",
             'A',
             true);
 
-    Camion camion = new Camion("bus1",
-            2000,
+        Camion camion = new Camion("bus1",
+            2016,
             20000,
             "AAA-333-FFF",
             'A',
             20);
+
+        voiture.afficherVoiture();
+        System.out.println(car.peutTransporterPassager(3, 7));
     }
 }

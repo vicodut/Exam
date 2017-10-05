@@ -16,4 +16,8 @@ public class Autocar extends Vehicule {
         this.volume = volume;
         this.places = places;
     }
+
+    public boolean peutTransporterPassager (int nbPassager, int volPassager) {
+        return (nbPassager <= places && nbPassager * volPassager <= volume);
+    }
 }

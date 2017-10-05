@@ -14,4 +14,17 @@ public class Voiture extends Vehicule {
         super(modele, annee, prix, imat, noPermis);
         this.autoRadio = autoRadio;
     }
+
+    public void ajouterAutoradio() {
+        autoRadio = true;
+    }
+
+    public void enleverAutoradio() {
+        autoRadio = false;
+    }
+
+    public void afficherVoiture() {
+        afficherVehicule();
+        System.out.println("Autoradio ? " + (autoRadio ? "oui" : "non"));
+    }
 }

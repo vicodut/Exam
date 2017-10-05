@@ -14,4 +14,8 @@ public class Camion extends Vehicule {
         super(modele, annee, prix, imat, noPermis);
         this.volume = volume;
     }
+
+    public boolean peutTransporterVolume (int volume) {
+        return volume <= this.volume;
+    }
 }
