@@ -20,4 +20,9 @@ public class Autocar extends Vehicule {
     public boolean peutTransporterPassager (int nbPassager, int volPassager) {
         return (nbPassager <= places && nbPassager * volPassager <= volume);
     }
+
+
+    public void afficherCamion() {
+        System.out.println(modele + annee + prix + imat + noPermis + volume + places);
+    }
 }

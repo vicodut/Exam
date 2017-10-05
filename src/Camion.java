@@ -18,4 +18,8 @@ public class Camion extends Vehicule {
     public boolean peutTransporterVolume (int volume) {
         return volume <= this.volume;
     }
+
+    public void afficherCamion() {
+        System.out.println(modele + annee + prix + imat + noPermis + volume);
+    }
 }

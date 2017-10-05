@@ -5,13 +5,13 @@
  * Description :
  */
 public abstract class Vehicule {
-    private String modele;
-    private int annee;
-    private double prix;
-    private String imat;
-    private char noPermis;
-    private boolean loue;
-    private int dateAjd = 2017;
+    protected String modele;
+    protected int annee;
+    protected double prix;
+    protected String imat;
+    protected char noPermis;
+    protected boolean loue;
+    protected int dateAjd = 2017;
 
     public Vehicule() {
     }
